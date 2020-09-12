@@ -1,5 +1,5 @@
 {% set name = "feedparser" %}
-{% set version = "5.2.1" %}
+{% set version = "6.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bd030652c2d08532c034c27fcd7c85868e7fa3cb2b17f230a44a6bbc92519bf9
+  sha256: a13fb1f26a7da985b51e6d1e91102fb1b1e5eb5d550a192643049a527bb24b0d
 
 build:
   number: 0
