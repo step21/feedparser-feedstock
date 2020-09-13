@@ -21,10 +21,15 @@ requirements:
     - python
   run:
     - python
+    - sgmllib3k
 
 test:
   imports:
     - feedparser
+    - feedparser.datetimes
+    - feedparser.namespaces
+    - feedparser.parsers
+    
   commands:
     - pip check
   requires:
